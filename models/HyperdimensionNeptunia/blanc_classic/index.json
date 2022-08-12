@@ -1,30 +1,54 @@
 {
-    "version":"Sample 1.0.0",
-    "model": "model.moc",
-    "textures": [
-        "https://img1.imgtp.com/2022/08/12/4cuw0Qcd.png",
-        "https://img1.imgtp.com/2022/08/12/a99AUx1h.png",
-        "https://img1.imgtp.com/2022/08/12/Qr6TQSSF.png",
-		"https://img1.imgtp.com/2022/08/12/o8CD7LWS.png"
+  "version": "Sample 1.0.0",
+  "model": "model.moc",
+  "textures": [
+    "textures.1024/00.png",
+    "textures.1024/01.png",
+    "textures.1024/02.png",
+    "textures.1024/03.png"
+  ],
+  "pose": "../general/pose.json",
+  "physics": "physics.json",
+  "layout": {
+    "center_x": 0,
+    "center_y": -0.6,
+    "width": 3
+  },
+  "hit_areas_custom": {
+    "head_x": [
+      -0.35,
+      0.6
     ],
-    "pose": "../general/pose.json",
-    "physics": "physics.json",
-    "layout": {
-        "center_x": 0,
-        "center_y": -0.6,
-        "width": 3
-    },
-    "hit_areas_custom":{
-		"head_x":[-0.35, 0.6],
-		"head_y":[0.19, -0.2],
-		"body_x":[-0.3, -0.25],
-		"body_y":[0.3, -0.9]
-	},
-	"motions": {
-        "idle": [
-            {"file": "motions/../../general/mtn/idle_00.mtn", "fade_in": 2000, "fade_out": 2000},
-            {"file": "motions/../../general/mtn/idle_01.mtn", "fade_in": 2000, "fade_out": 2000},
-            {"file": "motions/../../general/mtn/idle_02.mtn", "fade_in": 2000, "fade_out": 2000}
-        ]
-	}
+    "head_y": [
+      0.19,
+      -0.2
+    ],
+    "body_x": [
+      -0.3,
+      -0.25
+    ],
+    "body_y": [
+      0.3,
+      -0.9
+    ]
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "motions/../../general/mtn/idle_00.mtn",
+        "fade_in": 2000,
+        "fade_out": 2000
+      },
+      {
+        "file": "motions/../../general/mtn/idle_01.mtn",
+        "fade_in": 2000,
+        "fade_out": 2000
+      },
+      {
+        "file": "motions/../../general/mtn/idle_02.mtn",
+        "fade_in": 2000,
+        "fade_out": 2000
+      }
+    ]
+  }
 }
