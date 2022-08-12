@@ -2,10 +2,10 @@
     "version":"Sample 1.0.0",
     "model": "model.moc",
     "textures": [
-        "textures.1024/00.png",
-        "textures.1024/01.png",
-        "textures.1024/02.png",
-		"textures.1024/03.png"
+        "https://img1.imgtp.com/2022/08/12/4cuw0Qcd.png",
+        "https://img1.imgtp.com/2022/08/12/a99AUx1h.png",
+        "https://img1.imgtp.com/2022/08/12/Qr6TQSSF.png",
+		"https://img1.imgtp.com/2022/08/12/o8CD7LWS.png"
     ],
     "pose": "../general/pose.json",
     "physics": "physics.json",
